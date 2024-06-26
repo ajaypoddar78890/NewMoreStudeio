@@ -52,20 +52,36 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .newcontainer{
-    
+  .newcontainer {
     height: auto;
     flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  /* //accordian section */
+  .accordian-container {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+     
     
   }
-  .left{
-     width: 100%;;
-     border-radius: 0px;
+  .accordian-container .accordian{
+    width: 100%;
+    border-radius: none
   }
+  .accordian-container .Gif-side{
+    width: 100%;
+    border-radius: none;
+    padding: 20px;
+     
+  }
+  
 
-
-
-   
+  /* //New Custom Tab */
 }
 
 @media screen and (max-width: 768px) {
@@ -131,4 +147,7 @@
   .featured-projects .featured-project div p {
     margin-top: 5px;
   }
+
+
+  
 }

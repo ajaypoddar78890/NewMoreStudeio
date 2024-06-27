@@ -61,25 +61,46 @@
     border-radius: 0px;
   }
 
+  /* ///new how it works section */
+
   /* //accordian section */
   .accordian-container {
     height: auto;
     width: 100%;
     flex-direction: column;
-     
-    
   }
-  .accordian-container .accordian{
+  .accordian-container .accordian {
     width: 100%;
-    border-radius: none
+    border-radius: none;
   }
-  .accordian-container .Gif-side{
+  .accordian-container .Gif-side {
     width: 100%;
     border-radius: none;
     padding: 20px;
-     
   }
+
+  /* Accordian section */
+  .accordian-container .Gif-side img {
+    margin-top: 10px;
+    width: 100%;
+  }
+ /* //bignumbers*/
+ 
+ .cards{
+   grid-template-columns: repeat(2, 1fr);
+   gap: 1.5rem;
+ }
+ 
+ .icon-card{
+   grid-template-columns: repeat(2, 1fr);
+   gap: 1.5rem;
+   margin-top: 20px;
+ }
+ 
+ 
+
   
+
 
   /* //New Custom Tab */
 }
@@ -148,6 +169,82 @@
     margin-top: 5px;
   }
 
+  .newcontainer .left {
+    padding: 20px 20px;
+  }
+  .newcontainer .left p {
+    font-size: 1rem;
+  }
+  .our-form {
+    padding: 0px;
+  }
 
-  
+  .container .left {
+    /* padding: 20px 20px; */
+    border-radius: 0%;
+  }
+  .container .left h2 {
+    font-size: 1.8rem;
+
+    margin-bottom: 10px; /* Added margin for spacing */
+  }
+  .container .left p {
+    color: black;
+    line-height: 1.9rem;
+    margin-bottom: 10px;
+    text-wrap: wrap; /* Added margin for spacing */
+  }
+  #client {
+    font-weight: 700;
+  }
+
+  .container .right {
+    border-radius: 0%;
+  }
+  .container .right .contactform {
+    padding: 20px 30px;
+  }
+    /* //bignumbers*/
+ 
+ 
+ 
+    .cards{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      padding: 10px 20px;
+    }
+    .cards .clients{
+      text-align: left;
+       
+      
+    }
+    .cards .clients p{
+      line-height: 1;
+       font-size: 3rem;
+       font-weight: 800;
+       margin-bottom: 20px;
+        
+       
+    }
+    .cards .clients span{
+      font-family: var(--font-family);
+      line-height: 1;
+      font-weight: 700;
+      font-size: 1.1rem;
+    
+       
+       
+    }
+
+
+
+
+  /* //new ACCordian */
+ 
+
+  /* //FAQ2 */
+  .faq-questions2 {
+    padding: 10px 10px;
+    margin-top: .5rem;
+  }
 }

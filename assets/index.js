@@ -194,6 +194,45 @@ for (let th = 0; th < tab_items.length; th++) {
     tab_items[th].scrollHeight + 'px';
 }
 
+
+
+
+// Custome Tab
+
+var Content1 =document.getElementById("content1");
+var Content2 =document.getElementById("content2");
+var Content3 =document.getElementById("content3");
+
+var btn1 = document.getElementById("btn1")
+var btn2 = document.getElementById("btn2")
+var btn3 = document.getElementById("btn3")
+
+function openfilmMaking(){
+  Content1.style.transform ="translateX(0)";
+  Content2.style.transform ="translateX(100%)";
+  Content3.style.transform ="translateX(100%)";
+
+  Content1.style.transitionDelay="0.3s"
+  Content2.style.transitionDelay="0s"
+  Content3.style.transitionDelay="0s"
+}
+function openCorporateShoot(){
+  Content1.style.transform ="translateX(100%)";
+  Content2.style.transform ="translateX(0)";
+  Content3.style.transform ="translateX(100%)";
+  Content1.style.transitionDelay="0s"
+  Content2.style.transitionDelay="0.3s"
+  Content3.style.transitionDelay="0s"
+}
+function openaddShoot(){
+  Content1.style.transform ="translateX(100%)";
+  Content2.style.transform ="translateX(100%)";
+  Content3.style.transform ="translateX(0)";
+  Content1.style.transitionDelay="0s"
+  Content2.style.transitionDelay="0s"
+  Content3.style.transitionDelay="0.3s"
+}
+
 function raf(time) {
   lenis.raf(time);
   requestAnimationFrame(raf);

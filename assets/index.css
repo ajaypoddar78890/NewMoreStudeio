@@ -155,75 +155,57 @@ p {
   padding: var(--section-padding);
 }
 
-.big-numbers h2{
+.big-numbers h2 {
   text-align: center;
-  margin-bottom: 30px
-  
+  margin-bottom: 30px;
 }
 
-.card-container{
+.card-container {
   width: 100%;
   background-color: aqua;
-  
 }
 
-.cards{
-   
+.cards {
   background-color: var(--primary-color);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 30px;
   border-radius: 15px;
- 
+
   gap: 20px;
 }
- 
-.cards .clients{
+
+.cards .clients {
   text-align: center;
-   
-  
 }
-.cards .clients p{
+.cards .clients p {
   line-height: 1;
-   font-size: 3.5rem;
-   font-weight: 800;
-   margin-bottom: 20px;
-    
-   
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
- 
-.cards .clients span{
+
+.cards .clients span {
   font-family: var(--font-family);
   line-height: 1;
   font-weight: 700;
   font-size: 1.2rem;
-
-   
-   
 }
 
-.icon-card{
+.icon-card {
   background-color: var(--primary-color);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 30px;
   border-radius: 15px;
- 
+
   gap: 20px;
-
 }
-.icon-card .card{
- 
- display: flex;
- align-items: center;
- background-color: var(--primary-color);
-   
-
+.icon-card .card {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
 }
-
- 
-
-
 
 /* //newaboutsection */
 
@@ -785,7 +767,6 @@ p {
   /* height: 80vh; */
   width: 100%;
   display: flex;
-  
 }
 
 .container .left {
@@ -818,7 +799,7 @@ p {
   border-radius: 20%;
   margin: 10px;
 }
-#client{
+#client {
   font-weight: 500;
 }
 
@@ -858,65 +839,105 @@ p {
 }
 
 /* //Custome Tab */
- 
-  .custom-tab{
-    padding: var(--section-padding);
-    font-family: var(--font-family);
-   
 
-  }
-
-  .btn-box{
-    width: 100%;
-    height: 100px;
-    
-    padding: 20px 40px;
-    border-bottom: 1px solid rgb(0, 0, 0);
-   
-  }
-
-  .btn-box button{
-    background: var(--primary-color);
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 20px 20px;
-    color: rgb(0, 0, 0);
-    margin-right: 30px;
-     font-size: 1.4;
-     font-weight: 600;
-    
-  }
-
-  .content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 5% auto;
-  }
-
-  .content-left{
-    flex-basis: 50%;
-  }
-  .content-left p{
-     font-size: 1rem;
-     padding: 30px 0;
-  }
-  .content-left a{
-     /* width: 150px; */
-     display: block;
-     border-radius: 20px;
-     text-decoration: none;
-     padding: 18px 15px;
-     background-color: #000;
-  }
- 
-  .content-right{
-    flex-basis: 50%;
-  }
+.custom-tab {
+  padding: var(--section-padding);
+  font-family: var(--font-family);
  
   
+}
  
+
+.hero{
+  width: 80%;
+  height: 70vh;
+  overflow: hidden;  /* Ensure overflow is hidden for the hero container */
+  position: relative; /* Add position relative to properly position absolute children */
+ 
+}
+ 
+
+.btn-box {
+  width: 100%;
+  height: 100px;
+
+  padding: 20px 0px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.btn-box button {
+  background: var(--primary-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  margin-right: 30px;
+  font-size: 1.4;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.content {
+  
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  /* margin: 5% auto; */
+  padding: 50px 0px;
+  position: absolute;
+  transform: translateX(110%);
+  overflow: hidden;
+  transition: 0.3s;
+  
+  
+}
+
+.content-left {
+  flex-basis: 50%;
+}
+.content-left p {
+  font-size: 1rem;
+  padding: 10px 60px 10px 0px;
+  font-family: var(--font-family);
+  line-height: 1.4rem;
+}
+.content-left a {
+  width: 150px;
+  display: block;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: var(--primary-color);
+  color: var(--black-color);
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.content-right {
+  flex-basis: 50%;
+}
+.content-right img {
+  height: 500px;
+  width: 500px;
+}
+
+#content1  {
+  transform: translateX(0%);
+}
+
+#btn1{
+
+}
+
+
+
+
+
+
+
 
 
 /* newAccordian */
@@ -937,22 +958,15 @@ p {
 }
 
 .accordian-container .accordian {
-   
-  
   width: 50%;
   padding: 0px 20px;
- 
 }
-.accordian-container .Gif-side { 
-  width: 50%; 
+.accordian-container .Gif-side {
+  width: 50%;
   padding: 50x 20px;
-  
-  
-  
-  
 }
 .accordian-container .Gif-side img {
-   margin-top: 100px;
+  margin-top: 100px;
   max-width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1014,7 +1028,7 @@ p {
 .faq {
   border-bottom: 1px solid rgba(151, 151, 151, 0.3);
 }
- 
+
 .faq:last-child {
   border: none;
 }

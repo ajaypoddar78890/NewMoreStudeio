@@ -151,13 +151,14 @@ p {
 
 .big-numbers {
   /* background-color: var(--light-bakground-color); */
-  background-color: antiquewhite;
+  background-color: rgb(0, 0, 0);
   padding: var(--section-padding);
 }
 
 .big-numbers h2 {
   text-align: center;
   margin-bottom: 30px;
+  color: #fff;
 }
 
 .card-container {
@@ -166,7 +167,7 @@ p {
 }
 
 .cards {
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 30px;
@@ -177,12 +178,21 @@ p {
 
 .cards .clients {
   text-align: center;
+  border: 1px solid gray;
+  padding: 20px 0px;
+  border-radius: 10px;
+  
+}
+.cards .clients div:hover {
+  transform: scale(1.1);
+  
 }
 .cards .clients p {
   line-height: 1;
   font-size: 3.5rem;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 20px;
+  color: #fff;
 }
 
 .cards .clients span {
@@ -190,24 +200,44 @@ p {
   line-height: 1;
   font-weight: 700;
   font-size: 1.2rem;
+  color: #fff;
 }
 
 .icon-card {
-  background-color: var(--primary-color);
+ 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 30px;
-  border-radius: 15px;
-
+  
+  border-radius: px;
   gap: 20px;
+  padding: 20px 20px;
+  
 }
 .icon-card .card {
+  background-color: var(--black-color);
   display: flex;
   align-items: center;
-  background-color: var(--primary-color);
-}
+  border: 1px solid gray;
+  padding: 20px 0px;
+  border-radius: 10px;
 
-/* //newaboutsection */
+ 
+   
+}
+.icon-card .card:hover {
+ 
+scale: 1;
+ 
+   
+}
+ .card p{
+   color: var(--white-color);
+   line-height: 1;
+   font-weight: 700;
+   font-size: 1.2rem;
+ }
+
+
 
 .our-achivment-card {
   background-color: var(--primary-color);
@@ -849,7 +879,7 @@ p {
  
 
 .hero{
-  width: 80%;
+  width: 100%;
   height: 70vh;
   overflow: hidden;  /* Ensure overflow is hidden for the hero container */
   position: relative; /* Add position relative to properly position absolute children */
@@ -895,10 +925,11 @@ p {
 
 .content-left {
   flex-basis: 50%;
+  padding: 10px 40px 10px 0px;
 }
 .content-left p {
   font-size: 1rem;
-  padding: 10px 60px 10px 0px;
+
   font-family: var(--font-family);
   line-height: 1.4rem;
 }
@@ -918,6 +949,7 @@ p {
 
 .content-right {
   flex-basis: 50%;
+  
 }
 .content-right img {
   height: 500px;
@@ -942,9 +974,11 @@ p {
 
 /* newAccordian */
 
-.newAccordian {
-  padding: var(--section-padding);
+.New-Accordian{
+  /* padding: var(--section-padding); */
   font-family: var(--font-family);
+  background-color: var(--black-color);
+   
 }
 
 .accordian-container {
@@ -952,9 +986,10 @@ p {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  padding-top: 10px;
+   
+ 
 }
 
 .accordian-container .accordian {
@@ -979,7 +1014,7 @@ p {
 
 .accordian h3 {
   padding-top: 20px;
-  color: var(--black-color);
+  color: var(--white-color);
   text-align: center;
 }
 .faq-questions2 {
@@ -1041,7 +1076,7 @@ p {
 } */
 
 #svg path {
-  fill: black;
+  fill: rgb(255, 255, 255);
   transition: 0.6s ease;
 }
 .faq.active .faq-ask span svg {

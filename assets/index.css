@@ -87,6 +87,24 @@ p {
 ::-webkit-scrollbar-button {
   display: none;
 }
+
+
+/* //Navbar */
+
+.sidebar {
+  background-color: rgba(214, 214, 214, 0.55);
+
+
+  backdrop-filter: blur(10px);
+}
+
+  ul li a {
+  font-family: 2rem;
+} 
+
+
+
+
 /* Hero Section Here */
 .hero-section {
   min-height: 85vh;
@@ -1091,6 +1109,122 @@ scale: 1;
   transition: 0.6s ease;
   color: var(--primary-color);
 }
+
+
+
+
+/* //Footer */
+
+ .footer{
+  /* padding: var(--section-padding); */
+  font-family: var(--font-family);
+  background-color: var(--black-color);
+  
+ }
+
+ #footer-div{
+  width: 100%;
+  /* height: 50vh; */
+  background-color: #000;
+  padding: 20px 0px;
+ }
+
+ .footer-card a{
+  list-style: none;
+  text-decoration: none;
+  
+ }
+ .footer-card p{
+    font-size: 1.1rem;
+    margin-top: 10px;
+  
+  
+ }
+ .footer-card h6{
+    font-size: 1.2rem;
+    margin-top: 10px;
+  
+  
+ }
+
+ .copywrite-div a {
+     font-size: 1.2rem;
+ }
+ .copywrite-div  {
+      padding: 20px 30px;
+      margin-top: 30px;
+      border-top: 1px solid gray;
+      
+ }
+ .fab {
+  font-size: 1.3em; /* Adjust the size as needed */
+}
+
+
+
+ 
+
+
+  
+ 
+
+
+
+
+
+
+ /* .footer-div{
+  height: 60vh;
+  width: 100%;
+  background-color: rgb(163, 9, 9);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+    
+ }
+
+
+
+ .footer-div .card {
+  background-color: #f3b0b0;  
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px;  
+ }
+ .footer-div .card  h5{
+ color: white;
+  text-align: left;
+}
+
+.footer-div .card ul {
+  list-style-type: none; 
+  padding: 0;  
+  margin: 0;  
+}
+
+.footer-div .card li {
+  
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Arial', sans-serif;  
+  font-size: 16px;  
+  color: #fff5f5;  
+  padding: 10px 0px;  
+  margin-bottom: 5x;  
+  
+  transition: background-color 0.3s ease,transform 0.3s ease;  
+} */
+
+ 
+
+
+
+
+
+
+
+
 
 /* Using for lenis */
 html.lenis {

@@ -352,5 +352,21 @@
     padding: 10px 10px;
     margin-top: 0.5rem;
   }
+
+  .copywrite-div a {
+    font-size: 1rem;
+}
+.copywrite-div  {
+     padding: 0px 30px;
+     margin-top: 10px;
+     
+}
+.fab {
+ font-size: 1.2em; /* Adjust the size as needed */
+}
+
+
+  
+
 }
 

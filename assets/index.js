@@ -275,48 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
       requestAnimationFrame(step);
   }
 });
-
-//animation
-document.addEventListener('DOMContentLoaded', () => {
-  const counterElement = document.getElementById('client-count');
-  let start = 0;
-  const end = 700;
-  const duration = 5000; // 2 seconds
-
-  const options = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 0.5 // Trigger when 50% of the element is in view
-  };
-
-  const observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach(entry => {
-          if (entry.isIntersecting) {
-              animateCount(counterElement, start, end, duration);
-              observer.unobserve(entry.target);
-          }
-      });
-  }, options);
-
-  observer.observe(counterElement);
-
-  function animateCount(element, start, end, duration) {
-      let startTime = null;
-
-      const step = (currentTime) => {
-          if (!startTime) startTime = currentTime;
-          const progress = Math.min((currentTime - startTime) / duration, 1);
-          element.textContent = Math.floor(progress * (end - start) + start);
-
-          if (progress < 1) {
-              requestAnimationFrame(step);
-          }
-      };
-
-      requestAnimationFrame(step);
-  }
-});
-
+ 
 
 
 function raf(time) {

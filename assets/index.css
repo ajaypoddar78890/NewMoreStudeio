@@ -115,6 +115,19 @@ p {
   background-color: var(--primary-color);
 }
 
+.logo {
+  max-width: 200px; /* Set maximum width for the logo container */
+  height: auto; /* Automatically adjust height */
+  padding: 20px; /* Optional padding for better spacing */
+  box-sizing: border-box; /* Ensure padding is included in the total width/height */
+}
+
+.logo img {
+  width: 100%; /* Make the image take the full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Scale the image to fit within the container */
+}
+
 
  
 
@@ -124,6 +137,7 @@ p {
 .hero-section {
   min-height: 85vh;
   background-image: url("images/hero-image.webp");
+  /* background-image: url(images/casestudies.webp); */
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -280,7 +294,7 @@ scale: 1;
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   margin-top: 80px;
-  margin-bottom: -75px;
+  margin-bottom: -156px;
 }
 .our-achivment-card div {
   text-align: center;
@@ -844,6 +858,7 @@ scale: 1;
 .container .left h2 {
   color: rgb(24, 21, 21);
   margin-bottom: 20px; /* Added margin for spacing */
+  font-size: 2.3rem;
 }
 
 .container .left p {
@@ -1222,18 +1237,12 @@ scale: 1;
   background-color: var(--light-bakground-color);
 
 }
-.text p{
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 1.4rem;
-  margin-bottom: 10px;
-
-}
-.text h4{
-  font-size: 2.5rem;
+ 
+.textform h4{
+  font-size: 3rem;
   font-weight: 700;
   line-height: 2.8rem;
-  margin: 10px 0px 30px 0px;
+  margin: 30px 0px 30px 0px;
   
 
 
@@ -1246,7 +1255,66 @@ scale: 1;
   /* background-color: var(--black-color); */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 10px 0px;
+  padding: 30px 0px;
+  gap: 30px;
+}
+.Video-cards .card{
+ 
+  padding: 20px 0px;
+}
+
+
+.card-img-top{
+  height: 100px;
+  width: 100px;
+  padding-left: 20px;
+}
+.video-card-body h5{
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.video-card-body p{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
+  
+
+
+ 
+/* <!-- Reason To Choose Us --> */
+
+.Reason-to{
+  padding: var(--section-padding);
+  background-color: var(--light-bakground-color);
+
+}
+.text p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  margin-bottom: 10px;
+
+}
+.text h4{
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  margin: 30px 0px 30px 0px;
+  
+
+
+}
+
+
+.Reason-cards{
+  
+  width: 100%;
+  /* background-color: var(--black-color); */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px 0px;
   gap: 30px;
 }
 .Reason-cards .card{
@@ -1270,10 +1338,96 @@ scale: 1;
   line-height: 1.4rem;
 }
 
+/* <!--  Type of video --> */
+
+.Type-of-video{
+  padding: var(--section-padding);
+  /* background-color: var(--light-bakground-color); */
+  background-color: var(--black-color);
+
+}
+ 
+.textform{
+
+  width: 70%;
+  padding: 10px 0px 30px 20px;
   
 
 
+}
+.textform h4{
+
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  margin: 30px 0px 30px 0px;
+  
+
+
+}
+.textform p{
+
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+
+.Video-cards{
+  
+  width: 100%;
+  /* background-color: var(--black-color); */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* padding: 30px 0px; */
+  gap: 30px;
+}
+.Video-cards .card{
+  background-color: var(--light-bakground-color);
  
+  padding: 20px 20px;
+}
+
+
+.video-card-img-top{
+  height: 100px;
+  width: 100px;
+   
+}
+.video-card-body h5{
+  padding: 10px 0px;
+  font-size: 2.1rem;
+  font-weight: 800;
+}
+.video-card-body p{
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+.video-site-button{
+  background-color: var(--primary-color);
+}
+.image-body {
+  height: 250px; /* Adjust the height as needed */
+  width: 100%; /* Full width of the container */
+  overflow: hidden; /* Hide any overflow content */
+  
+}
+
+.image-body img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Cover the entire area, maintaining aspect ratio */
+  object-position: center; /* Center the image */
+}
+
+
+#primary-button{
+  padding: 20px 40px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
 
 
 

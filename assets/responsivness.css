@@ -158,6 +158,39 @@
   
   }
 
+  .Video-cards{
+  
+    
+    grid-template-columns: repeat(2, 1fr);
+    /* padding: 30px 0px; */
+    gap: 30px;
+  }
+   
+.textform{
+
+  width: 100%;
+  padding: 10px 0px 20px 20px;
+  
+
+
+}
+  .textform h4{
+
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+  }
+  .video-card-body h5{
+    padding: 10px 0px 10px 0px;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .video-card-body p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+  }
+
    
 }
 
@@ -429,6 +462,42 @@
 
 
 }
+
+.Video-cards{
+  
+    
+  grid-template-columns: repeat(1, 1fr);
+  /* padding: 30px 0px; */
+  gap: 30px;
+}
+ 
+ 
+.textform h4{
+
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  margin: 10px 0px;
+}
+.textform p{
+
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+.video-card-body h5{
+  padding: 15px 0px 5px 0px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#primary-button{
+  padding: 10px 20px;
+   
+  font-size: 1rem;
+
+
+}
+ 
 
 
   

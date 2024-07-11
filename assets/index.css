@@ -90,14 +90,17 @@ p {
 
 
 /* //Navbar */
-   
-.navbar {
 
-  background-color: transparent !important;
-  position: absolute;
-  width: 100%;
-  z-index: 10;
+.Navarsection{
+  background-color: var(--light-bakground-color);
+}
    
+.navbar { 
+  width: 100%;
+  /* min-height: 5vh; */
+  /* padding: 5px 0px 5px 0px; */
+  position:sticky;
+  top: 0;
   
 }
 .navbar-brand{
@@ -123,9 +126,9 @@ p {
 }
 
 .logo img {
-  width: 100%; /* Make the image take the full width of its container */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: contain; /* Scale the image to fit within the container */
+  width: 100%;  
+  height: auto;  
+  object-fit: contain;  
 }
 
 
@@ -136,7 +139,7 @@ p {
 /* Hero Section Here */
 .hero-section {
   min-height: 85vh;
-  background-image: url("images/hero-image.webp");
+  background-image: url("https://as1.ftcdn.net/v2/jpg/03/15/04/12/1000_F_315041284_YMtiKaiN2bbxJWoQZVwNPn2AyNxFIBlh.jpg");
   /* background-image: url(images/casestudies.webp); */
   background-repeat: no-repeat;
   position: relative;
@@ -163,6 +166,7 @@ p {
 .hero-content p {
   margin: 20px 0 40px 0;
   font-size: 1.5rem;
+  font-weight: 700;
 }
 
 /* Trusted By Styling Here */
@@ -255,7 +259,7 @@ p {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   
-  border-radius: px;
+  /* border-radius: px; */
   gap: 20px;
   padding: 20px 20px;
   

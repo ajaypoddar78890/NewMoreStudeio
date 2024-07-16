@@ -48,7 +48,31 @@ const iconsLibrary = {
     '<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M39.4237 46.6386L28.2701 41.9897L24.588 48.4259C23.8848 49.6565 22.4394 50.2621 21.072 49.9007C19.7047 49.5393 18.7475 48.2989 18.7475 46.8828V38.0244L1.91951 31.0119C0.815871 30.5528 0.0736011 29.5176 0.00523415 28.326C-0.0631328 27.1345 0.542403 26.0113 1.57767 25.4156L2.34924 26.7731C1.83161 27.0661 1.52884 27.6326 1.56791 28.2284C1.60697 28.8241 1.97811 29.3418 2.52504 29.5762L19.021 36.4519L46.8366 1.56526C46.5827 1.57502 46.3287 1.64339 46.0943 1.77036L2.33948 26.7731L1.56791 25.4156L45.3228 0.412785C46.1334 -0.0462504 47.0808 -0.124384 47.9305 0.188151C48.1746 0.276051 48.4188 0.403018 48.6434 0.549519C48.7704 0.637419 48.8876 0.725319 48.995 0.822986C49.0829 0.90112 49.1611 0.979254 49.2294 1.06715C49.8252 1.75082 50.1084 2.67866 49.9619 3.59673L43.7113 44.2262C43.5647 45.1736 42.9885 46.0038 42.1486 46.4726C41.3086 46.9414 40.3027 47 39.4139 46.6288L39.4237 46.6386ZM20.5153 37.0672L28.8659 40.5442C28.8659 40.5442 28.8659 40.5442 28.8756 40.5442L40.0292 45.1931C40.4687 45.3787 40.9766 45.3494 41.3965 45.115C41.8165 44.8806 42.0997 44.4606 42.1779 43.9918L48.4286 3.36233C48.4872 3.00096 48.409 2.63959 48.2332 2.33683L20.5153 37.0672ZM20.3102 38.6787V46.8828C20.3102 47.5957 20.7888 48.211 21.4725 48.3966C22.1561 48.5822 22.8789 48.2794 23.2305 47.6641L26.8148 41.3939L20.3102 38.6787Z" fill="black"/></svg>',
   plus_icon:
     '<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M26.0417 1.04167C26.0417 0.46875 25.5729 0 25 0C24.4271 0 23.9583 0.46875 23.9583 1.04167V23.9583H1.04167C0.46875 23.9583 0 24.4271 0 25C0 25.5729 0.46875 26.0417 1.04167 26.0417H23.9583V48.9583C23.9583 49.5312 24.4271 50 25 50C25.5729 50 26.0417 49.5312 26.0417 48.9583V26.0417H48.9583C49.5312 26.0417 50 25.5729 50 25C50 24.4271 49.5312 23.9583 48.9583 23.9583H26.0417V1.04167Z" fill="white"/> </svg>',
+  locationIcon:
+    '<svg width="50" height="63" viewBox="0 0 50 63" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.0569 0C37.2211 0.0551269 47.566 8.83921 49.6892 20.8206C50.4956 25.3726 49.6892 29.6016 47.7755 33.7188C45.3168 39.0078 42.0313 43.766 38.4669 48.3463C34.8238 53.0289 30.9051 57.4706 26.7406 61.6965C25.5987 62.8557 24.4442 62.8573 23.3055 61.6902C17.1092 55.338 11.3366 48.6361 6.45867 41.2019C4.65996 38.4597 3.10695 35.5868 1.77446 32.5832C-0.474722 27.5131 -0.529849 22.3705 1.29249 17.2358C4.64105 7.80125 11.3429 2.2035 21.1681 0.327612C21.6138 0.242559 22.0706 0.200032 22.5242 0.165381C23.3685 0.100804 24.2127 0.0551284 25.0569 0.00157659V0ZM24.9797 57.5147C25.1388 57.3698 25.2081 57.3162 25.2648 57.2517C28.5173 53.4967 31.8533 49.8095 34.9971 45.9648C38.2543 41.9815 41.1303 37.721 43.485 33.1234C45.5594 29.0739 46.4194 24.9158 45.3641 20.367C42.822 9.39993 31.6769 2.17358 20.7539 4.65901C12.9936 6.42465 7.76754 11.1734 5.19232 18.7101C4.11184 21.8728 3.75115 25.1379 4.71036 28.4345C5.54671 31.3089 6.89968 33.9487 8.43064 36.5003C11.7556 42.0477 15.7515 47.0973 19.9852 51.9658C21.606 53.8291 23.2897 55.6388 24.9813 57.5131L24.9797 57.5147Z" fill="black"/><path d="M37.5306 23.9834C37.5369 30.8727 31.925 36.4972 25.0373 36.5035C18.1464 36.5098 12.5219 30.8979 12.5156 24.0133C12.5109 17.1209 18.1181 11.5011 25.0074 11.4948C31.9014 11.4885 37.5228 17.0956 37.5291 23.9834H37.5306ZM33.3615 23.9739C33.3536 19.4 29.5971 15.6608 25.0137 15.6639C20.435 15.6671 16.6895 19.4141 16.6848 23.9928C16.6816 28.5983 20.4523 32.3516 25.0641 32.3375C29.6365 32.3217 33.3678 28.5605 33.3599 23.9755L33.3615 23.9739Z" fill="black"/></svg>',
+  phoneIcon:
+    '<svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26.5939 50.0551H23.4653C23.34 50.0277 23.2159 49.9846 23.0893 49.9742C18.0152 49.5694 13.4621 47.8106 9.49268 44.6298C4.54526 40.6656 1.48592 35.5511 0.374745 29.2953C0.215445 28.4009 0.124045 27.496 0 26.595C0 25.5517 0 24.5098 0 23.4665C0.157994 22.3736 0.274203 21.2742 0.480509 20.1904C2.52659 9.44944 11.6915 1.12016 22.567 0.122581C27.9649 -0.372292 33.0899 0.608312 37.6978 3.48223C46.5742 9.01854 50.6925 17.1023 49.9051 27.5352C49.4978 32.9239 47.3028 37.6533 43.6925 41.6802C39.834 45.9826 35.042 48.6632 29.3385 49.6739C28.4284 49.8358 27.5066 49.9285 26.59 50.0538L26.5939 50.0551ZM2.92745 25.0242C2.92223 37.2133 12.8119 47.1107 25.0152 47.129C37.1181 47.1473 47.1057 37.2563 47.12 25.2397C47.1357 12.8665 37.2996 2.93774 25.0296 2.94035C12.8223 2.94296 2.93268 12.8235 2.92745 25.0242Z" fill="black"/><path d="M32.9264 38.5347C30.9808 38.4589 29.239 38.0333 27.552 37.4326C19.6471 34.6175 14.4281 29.2039 12.0177 21.154C11.6573 19.9502 11.4745 18.6745 11.3661 17.4183C11.2577 16.1661 11.7617 15.0641 12.651 14.1553C13.061 13.7362 13.4514 13.2987 13.8561 12.8731C15.4661 11.1808 17.6571 11.0947 19.3781 12.6642C19.9082 13.1473 20.4279 13.6408 20.9306 14.1514C22.3578 15.6034 22.4335 17.75 21.0977 19.279C20.2503 20.2479 19.3885 21.1958 18.0593 21.5523C17.4782 21.7077 17.3999 22.0746 17.7107 22.7261C18.7513 24.9067 20.1119 26.8627 21.8642 28.5327C23.5551 30.144 25.4889 31.391 27.6303 32.3194C28.3263 32.621 28.5561 32.5479 28.8564 31.8663C29.3761 30.682 30.2105 29.7706 31.2459 29.0224C32.6391 28.0144 34.3457 28.0144 35.6723 29.1033C36.4258 29.721 37.1504 30.3921 37.7902 31.1233C38.8152 32.2946 39.079 33.7021 38.3595 35.0784C37.5004 36.721 36.2429 38.0111 34.2974 38.3728C33.8038 38.4642 33.2972 38.4929 32.9303 38.5347H32.9264Z" fill="black"/></svg>',
+  emailIcon:
+    '<svg width="50" height="36" viewBox="0 0 50 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 31.2539C0 22.138 0 13.0234 0 3.90755C0.145833 3.44531 0.231773 2.95443 0.445314 2.52604C1.31901 0.77474 2.78906 0 4.71745 0C18.2396 0.00260417 31.7617 0.00130208 45.2839 0.00130208C45.3971 0.00130208 45.5117 -0.00130208 45.625 0.00390625C47.0339 0.0651042 48.1953 0.613281 49.0807 1.73307C49.5911 2.3776 49.8125 3.13281 50 3.90755V31.2539C49.8555 31.7148 49.7695 32.2057 49.5573 32.6328C48.6849 34.3841 47.2135 35.1615 45.2865 35.1615C31.763 35.1589 18.2409 35.1615 4.71745 35.1615C4.60417 35.1615 4.48958 35.1641 4.3763 35.1589C2.92838 35.095 1.6901 34.5547 0.881509 33.3385C0.471353 32.7214 0.286458 31.9544 0 31.2552V31.2539ZM5.06641 2.95312C5.16276 3.0651 5.20182 3.11719 5.24739 3.16146C10.7617 8.64844 16.2695 14.1419 21.8034 19.6081C22.2747 20.0742 22.8815 20.4766 23.5013 20.707C25.3398 21.3906 26.9414 20.8854 28.3086 19.5247C33.7409 14.1172 39.1758 8.71224 44.6094 3.30599C44.707 3.20964 44.7956 3.10417 44.9349 2.95312H5.06641ZM5.33333 32.1888H44.6497C40.6211 28.0781 36.5013 23.875 32.3255 19.6133C31.6055 20.3477 30.9492 21.0456 30.263 21.7109C28.1914 23.7214 25.75 24.3854 22.9531 23.6432C21.6654 23.3008 20.5885 22.5833 19.6589 21.6406C19.0104 20.9831 18.3659 20.3229 17.6654 19.6081C13.487 23.8711 9.36849 28.0729 5.33333 32.1901V32.1888ZM2.95573 30.0312L3.07682 30.1107C7.20052 25.9115 11.3229 21.7122 15.3359 17.6263C11.276 13.5026 7.14193 9.30208 2.95573 5.05078V30.0312ZM47.0508 5.13542C47.0143 5.11198 46.9779 5.08854 46.9414 5.0651C42.8034 9.26823 38.6654 13.4714 34.5117 17.6901C38.6354 21.7878 42.8112 25.9375 47.0508 30.151V5.13542Z" fill="black"/></svg>',
+  whatsappIcon:
+    '<svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 50.3036C1.14915 46.0943 2.26335 41.9884 3.39713 37.8866C3.49498 37.5344 3.45165 37.2645 3.27969 36.9514C-2.39756 26.7013 -0.0419402 13.6552 8.87307 6.04873C13.9632 1.70516 19.8725 -0.310753 26.5423 0.038745C37.6564 0.62031 47.104 8.74266 49.4387 19.647C52.1438 32.2905 44.8407 44.9144 32.5131 48.7546C26.0237 50.7761 19.7103 50.1568 13.6304 47.1064C13.3676 46.975 12.9902 46.9345 12.7078 47.0072C8.65917 48.0473 4.61757 49.1153 0.574576 50.175C0.412408 50.2183 0.246047 50.2477 0.00139776 50.3022L0 50.3036ZM5.97782 44.3845C6.13719 44.351 6.21828 44.3356 6.29656 44.316C8.53755 43.7303 10.7827 43.1599 13.0167 42.5448C13.5591 42.3952 13.9813 42.4441 14.4776 42.7307C20.5449 46.2201 26.8694 46.7331 33.2946 43.9567C42.2334 40.0927 47.0551 30.9792 45.4726 21.3162C43.9376 11.9441 35.6125 4.58642 26.1145 4.22714C20.8707 4.02862 16.1524 5.51888 12.0857 8.85449C7.3898 12.706 4.82308 17.7164 4.44422 23.7851C4.16323 28.2964 5.30958 32.4708 7.76586 36.2692C7.98255 36.6033 8.03148 36.8941 7.92243 37.2855C7.26538 39.6188 6.63768 41.9604 5.97782 44.3845Z" fill="black"/><path d="M17.0325 13.4539C18.1412 13.1645 18.6486 13.8621 19.0289 14.8491C19.5853 16.2974 20.1976 17.7234 20.8085 19.1507C21.014 19.6316 21.0042 20.0636 20.6939 20.4816C20.1948 21.1541 19.7083 21.8363 19.1813 22.4863C18.8485 22.896 18.8024 23.265 19.0736 23.7236C21.1063 27.1654 23.9554 29.6497 27.6699 31.1301C28.1536 31.3231 28.5506 31.2448 28.8805 30.8338C29.5027 30.0579 30.1373 29.2918 30.7525 28.5103C31.183 27.9651 31.4389 27.8211 32.047 28.0979C33.8197 28.9087 35.5783 29.7531 37.3188 30.6325C37.5299 30.7387 37.7117 31.1385 37.7061 31.3986C37.66 34.0394 36.8841 35.3185 34.0433 36.5096C32.437 37.1835 30.7734 37.0157 29.121 36.5544C23.1404 34.8838 18.7311 31.1148 15.1998 26.1547C14.0898 24.5945 13.0874 22.9854 12.6652 21.0897C12.0655 18.3874 12.7337 16.0486 14.7203 14.0998C15.3494 13.4819 16.1113 13.3505 17.0325 13.4567V13.4539Z" fill="black"/></svg>',
 };
+
+//Footer section add information add here
+const copyRight = document.querySelector("#footer-copyright");
+const footerAddress = document.querySelector(".footer-location-icon");
+const footerEmail = document.querySelector(".footer-email-icon");
+const footerWhatsapp = document.querySelector(".footer-whatsapp-icon");
+const footerPhone = document.querySelector(".footer-call-icon");
+
+let currentDate = new Date();
+let FullYear = currentDate.getFullYear();
+
+copyRight.textContent = `© ${FullYear} Morestudios All right reserved`;
+footerAddress.innerHTML = iconsLibrary.locationIcon;
+footerEmail.innerHTML = iconsLibrary.emailIcon;
+footerPhone.innerHTML = iconsLibrary.phoneIcon;
+footerWhatsapp.innerHTML = iconsLibrary.whatsappIcon;
 
 // Plus icon here And FAQ Section logic Building Here
 let insertIcon = document.querySelectorAll(".faq-ask span");
@@ -162,121 +186,112 @@ const lenis = new Lenis({
   wheelMultiplier: 1,
 });
 
-
-
 // /Custom Tab
 
-
-let filter_btn = document.querySelectorAll('.filter-btn');
-let tab_items = document.querySelectorAll('.tab-item');
+let filter_btn = document.querySelectorAll(".filter-btn");
+let tab_items = document.querySelectorAll(".tab-item");
 
 for (let i = 0; i < filter_btn.length; i++) {
-  filter_btn[i].addEventListener('click', function () {
+  filter_btn[i].addEventListener("click", function () {
     for (let j = 0; j < filter_btn.length; j++) {
-      filter_btn[j].classList.remove('active');
+      filter_btn[j].classList.remove("active");
     }
-    let select_tab = filter_btn[i].getAttribute('data-tab');
-    filter_btn[i].classList.add('active');
+    let select_tab = filter_btn[i].getAttribute("data-tab");
+    filter_btn[i].classList.add("active");
     for (let t = 0; t < tab_items.length; t++) {
-      document.querySelector('.tab-filter-item-container').style.height =
-        tab_items[t].scrollHeight + 'px';
+      document.querySelector(".tab-filter-item-container").style.height =
+        tab_items[t].scrollHeight + "px";
       if (tab_items[t].classList.contains(select_tab)) {
-        tab_items[t].classList.add('select_tab');
+        tab_items[t].classList.add("select_tab");
       } else {
-        tab_items[t].classList.remove('select_tab');
+        tab_items[t].classList.remove("select_tab");
       }
     }
   });
 }
 
 for (let th = 0; th < tab_items.length; th++) {
-  document.querySelector('.tab-filter-item-container').style.height =
-    tab_items[th].scrollHeight + 'px';
+  document.querySelector(".tab-filter-item-container").style.height =
+    tab_items[th].scrollHeight + "px";
 }
-
-
-
 
 // Custome Tab
 
-var Content1 =document.getElementById("content1");
-var Content2 =document.getElementById("content2");
-var Content3 =document.getElementById("content3");
+var Content1 = document.getElementById("content1");
+var Content2 = document.getElementById("content2");
+var Content3 = document.getElementById("content3");
 
-var btn1 = document.getElementById("btn1")
-var btn2 = document.getElementById("btn2")
-var btn3 = document.getElementById("btn3")
+var btn1 = document.getElementById("btn1");
+var btn2 = document.getElementById("btn2");
+var btn3 = document.getElementById("btn3");
 
-function openfilmMaking(){
-  Content1.style.transform ="translateX(0)";
-  Content2.style.transform ="translateX(100%)";
-  Content3.style.transform ="translateX(100%)";
+function openfilmMaking() {
+  Content1.style.transform = "translateX(0)";
+  Content2.style.transform = "translateX(100%)";
+  Content3.style.transform = "translateX(100%)";
 
-  Content1.style.transitionDelay="0.3s"
-  Content2.style.transitionDelay="0s"
-  Content3.style.transitionDelay="0s"
+  Content1.style.transitionDelay = "0.3s";
+  Content2.style.transitionDelay = "0s";
+  Content3.style.transitionDelay = "0s";
 }
-function openCorporateShoot(){
-  Content1.style.transform ="translateX(100%)";
-  Content2.style.transform ="translateX(0)";
-  Content3.style.transform ="translateX(100%)";
-  Content1.style.transitionDelay="0s"
-  Content2.style.transitionDelay="0.3s"
-  Content3.style.transitionDelay="0s"
+function openCorporateShoot() {
+  Content1.style.transform = "translateX(100%)";
+  Content2.style.transform = "translateX(0)";
+  Content3.style.transform = "translateX(100%)";
+  Content1.style.transitionDelay = "0s";
+  Content2.style.transitionDelay = "0.3s";
+  Content3.style.transitionDelay = "0s";
 }
-function openaddShoot(){
-  Content1.style.transform ="translateX(100%)";
-  Content2.style.transform ="translateX(100%)";
-  Content3.style.transform ="translateX(0)";
-  Content1.style.transitionDelay="0s"
-  Content2.style.transitionDelay="0s"
-  Content3.style.transitionDelay="0.3s"
+function openaddShoot() {
+  Content1.style.transform = "translateX(100%)";
+  Content2.style.transform = "translateX(100%)";
+  Content3.style.transform = "translateX(0)";
+  Content1.style.transitionDelay = "0s";
+  Content2.style.transitionDelay = "0s";
+  Content3.style.transitionDelay = "0.3s";
 }
-
 
 //animation
 
-document.addEventListener('DOMContentLoaded', () => {
-  const counterElement = document.getElementById('client-count');
+document.addEventListener("DOMContentLoaded", () => {
+  const counterElement = document.getElementById("client-count");
   let start = 0;
   const end = 700;
   const duration = 2000; // 2 seconds
 
   const options = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 0.5 // Trigger when 50% of the element is in view
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.5, // Trigger when 50% of the element is in view
   };
 
   const observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach(entry => {
-          if (entry.isIntersecting) {
-              animateCount(counterElement, start, end, duration);
-              observer.unobserve(entry.target);
-          }
-      });
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        animateCount(counterElement, start, end, duration);
+        observer.unobserve(entry.target);
+      }
+    });
   }, options);
 
   observer.observe(counterElement);
 
   function animateCount(element, start, end, duration) {
-      let startTime = null;
+    let startTime = null;
 
-      const step = (currentTime) => {
-          if (!startTime) startTime = currentTime;
-          const progress = Math.min((currentTime - startTime) / duration, 1);
-          element.textContent = Math.floor(progress * (end - start) + start);
+    const step = (currentTime) => {
+      if (!startTime) startTime = currentTime;
+      const progress = Math.min((currentTime - startTime) / duration, 1);
+      element.textContent = Math.floor(progress * (end - start) + start);
 
-          if (progress < 1) {
-              requestAnimationFrame(step);
-          }
-      };
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      }
+    };
 
-      requestAnimationFrame(step);
+    requestAnimationFrame(step);
   }
 });
- 
-
 
 function raf(time) {
   lenis.raf(time);

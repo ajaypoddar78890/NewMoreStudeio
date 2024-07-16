@@ -1,6 +1,17 @@
+@media screen and (max-width: 1195px) {
+  .column-reverse-reponsive {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contact-form {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   :root {
-    --section-padding: 60px 0px;
+    --section-padding: 40px 0px;
   }
   .our-achivment-card {
     grid-template-columns: repeat(2, 1fr);
@@ -37,16 +48,19 @@
     border-right: 2px dashed var(--black-color);
   }
   .process-card div:first-child {
-    width: 40px;
-    height: 40px;
+    max-width: 40px;
+    max-height: 40px;
   }
   .process-card div:first-child svg {
-    width: 20px;
-    height: 20px;
+    width: 20px !important;
+    height: 20px !important;
   }
   .process-card::before {
     top: 40px;
     left: 20px;
+  }
+  .process-card h4 {
+    font-size: 1.5rem;
   }
   .featured-projects {
     grid-template-columns: repeat(2, 1fr);
@@ -98,8 +112,8 @@
   }
 
   /* //New Custom Tab */
-   
-  .hero{
+
+  .hero {
     height: 100vh;
   }
   .btn-box {
@@ -125,100 +139,104 @@
   /* //Navbar */
   .sidebar {
     background-color: rgba(214, 214, 214, 0.55);
-  
-  
+
     backdrop-filter: blur(10px);
   }
-  .navbar-toggler-icon{
+  .navbar-toggler-icon {
     color: white;
   }
 
-   /* //Sub-Services page starts here  */
-    
-   .Reason-cards{
-  
-  
+  /* //Sub-Services page starts here  */
+
+  .Reason-cards {
     grid-template-columns: repeat(2, 1fr);
     padding: 20px 0px;
-    gap: 20px ;
+    gap: 20px;
   }
-  .text p{
+  .text p {
     font-size: 1.3rem;
     font-weight: 400;
     line-height: 1.7rem;
     margin-bottom: 10px;
-  
   }
-  .text h4{
+  .text h4 {
     font-size: 2rem;
-    
+
     margin: 10px 0px 20px 0px;
-    
-  
-  
   }
 
-  .Video-cards{
-  
-    
+  .Video-cards {
     grid-template-columns: repeat(2, 1fr);
     /* padding: 30px 0px; */
     gap: 30px;
   }
-   
-.textform{
 
-  width: 100%;
-  padding: 10px 0px 20px 20px;
-  
-
-
-}
-  .textform h4{
-
+  .textform {
+    width: 100%;
+    padding: 10px 0px 20px 20px;
+  }
+  .textform h4 {
     font-size: 2.8rem;
     font-weight: 700;
     line-height: 3.2rem;
   }
-  .video-card-body h5{
+  .video-card-body h5 {
     padding: 10px 0px 10px 0px;
     font-size: 1.5rem;
     font-weight: 700;
   }
-  .video-card-body p{
+  .video-card-body p {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.3rem;
   }
 
-   
+  .about-achivment-card {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 60px;
+    gap: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   :root {
-    --section-padding: 50px 0px;
+    --section-padding: 40px 0px;
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 1.9rem;
     font-family: var(--font-family);
     font-weight: 700;
     line-height: 1.3;
   }
   h2,
   h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     line-height: 1.3 !important;
   }
-
-  /* Hero section reponsive stying here */
-  .hero-content h1 {
-    font-size: 2.1rem;
+  p {
+    font-size: 1rem;
   }
+
+  /* Header section responsive styling here */
+  .navbar {
+    padding: 10px 0;
+  }
+  .logo {
+    width: 180px;
+  }
+
+  /* Hero section responsive stying here */
   .hero-content p {
-    font-size: 1.2rem;
-    margin: 10px 0 30px 0;
+    font-size: 1rem;
+    margin: 10px 0 25px 0;
+  }
+  .hero-section {
+    min-height: 55vh;
+    align-items: end;
+    justify-content: start;
+    padding: 130px 15px 50px 15px;
   }
 
   /* About section reponsive styling here */
@@ -228,27 +246,27 @@
 
   /* Our achivment section reponsive styling here */
   .our-achivment-card {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: -90px;
   }
   .our-achivment-card div {
     text-align: left;
   }
   .our-achivment-card div p {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
   }
   .our-achivment-card div span {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   /* Featured work responsive styling section here */
   .feature-work-section {
-    padding: 140px 0 50px 0;
+    padding: 130px 0 40px 0;
   }
   .featured-projects {
     grid-template-columns: 1fr;
-    margin-top: 30px;
+    margin-top: 20px;
     gap: 15px;
   }
   .featured-projects .featured-project div {
@@ -257,7 +275,9 @@
   .featured-projects .featured-project div p {
     margin-top: 5px;
   }
-
+  .featured-projects .featured-project div h4 {
+    font-size: 1.5rem;
+  }
   .newcontainer .left {
     padding: 20px 20px;
   }
@@ -267,7 +287,9 @@
   .our-form {
     padding: 0px;
   }
-
+  .why-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .container .left {
     /* padding: 20px 20px; */
     border-radius: 0%;
@@ -315,192 +337,92 @@
     font-weight: 700;
     font-size: 1.1rem;
   }
- 
 
-
-  .hero{
-    width: 100%;
-    height: 125vh;
-    overflow: hidden;  /* Ensure overflow is hidden for the hero container */
-    position: relative; /* Add position relative to properly position absolute children */
-   
+  /* Case studies section responsive styling here */
+  .case-content h4 {
+    font-size: 1.5rem;
   }
-  /* //New Custom Tab */
-
-  .btn-box {
-    width: 100%;
-    height: 100px;
-    padding: 10px 0px;
-    border-bottom: 1px solid rgb(0, 0, 0);
-    gap: 0px;
-     
-    margin: 5px 0px 0px 0px;
+  .case-content h5 {
+    font-size: 0.9rem;
   }
-  .btn-box button {
-     
-    padding: 10px;
+  .case-tags p {
     font-size: 0.8rem;
-    gap: 5px;
-    margin: 5px 0px 0px 0px;
-     
-    font-weight: 500;
-    
-    
-    
-
+    border-radius: 0;
+    padding: 0;
+    background-color: transparent;
+    color: var(--black-color);
+    font-weight: 700;
   }
- 
-
-  .content {
-    flex-direction: column;
-    gap: 50px;
-    padding: 20px 0px;
+  .case-content p {
+    font-size: 0.9rem;
   }
-  
-  .content-left  {
-   padding: 0;
+  .case-tags {
+    margin: 10px 0 15px 0;
   }
-  .content-left p {
-     padding: 0px 20px 0px 0px;
-     font-size: 1rem;
-     line-height: 1.4rem;
+  .case-overlay,
+  .case-image,
+  .case-image img:first-child,
+  .case-image img:last-child {
+    display: none;
   }
-  .content-right {
-    height: 100vh; /* Adjust the height as needed */
-    width: 100%; 
-  }
-  .content-right img {
-    height: 100%;
-    width: 100%; 
+  .casestudy-card {
+    gap: 0px;
+    padding: 20px;
+    min-height: 100%;
   }
 
-
-
-  /* //BIG NUMBER */
-  .cards .clients {
-    text-align: center;
-   
-    padding: 20px 0px; 
-    
+  /* Our Services section responsive styling here */
+  .services-card h4 {
+    font-size: 1.5rem;
   }
-  .cards .clients p {
-    line-height: 1;
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 20px;
-    color: #fff;
-  }
-  
-
-  /* //new ACCordian */
-
-  .accordian-container .accordian {
-    width: 100%;
-    /* padding: 0px 20px; */
-  }
-  .faq-questions2 {
-    margin-top: 1rem;
-    padding: 20px 10px;
+  .services-card .related-services p {
+    font-size: 0.9 rem;
   }
 
-  .faq .faq-ask {
-    
-    padding: 10px 0px;
+  /* Testimonial Section responsive styling here */
+  .testimonial-section .rating {
+    font-size: 0.9rem;
+    gap: 10px;
+    border-radius: 30px;
+    padding: 12px 15px;
   }
 
-
-
-
-
-  /* //FAQ2 */
-  .faq-questions2 {
-    padding: 10px 10px;
-    margin-top: 0.5rem;
-  }
-
-  .copywrite-div a {
+  /* FAQ Section responsive styling here */
+  .faq .faq-ask h5 {
     font-size: 1rem;
-}
-.copywrite-div  {
-     padding: 0px 30px;
-     margin-top: 10px;
+  }
+  .faq .faq-answer p {
+    font-size: 0.9rem;
+  }
+
+  /* Why Section responsive styling here */
+  .why-content p {
+    font-size: 1rem;
+  }
+
+  /* How it Work Section responsive styling here */
+  .process-card div:first-child {
+    min-width: 40px;
+  }
+
+  .about-achivment-card {
      
-}
-.fab {
- font-size: 1.2em; /* Adjust the size as needed */
-}
-.sidebar {
-  background-color: rgba(214, 214, 214, 0.55);
-
-
-  backdrop-filter: blur(10px);
-}
-
-
- /* //Sub-Services page starts here  */
-    
- .Reason-cards{
-  
-  
-  grid-template-columns: repeat(1, 1fr);
-  padding: 20px 0px;
-  gap: 10px;
+     
+  }
+  .about-achivment-card div {
+    text-align: left;
+  }
+  .about-achivment-card div p {
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+  }
+  .about-achivment-card div span {
+    font-size: 0.9rem;
+  }
 }
 
-.text p{
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.4rem;
-  margin-bottom: 10px;
-
-}
-.text h4{
-  font-size: 1.5rem;
-  
-  margin: 10px 0px 20px 0px;
-  
 
 
-}
 
-.Video-cards{
-  
-    
-  grid-template-columns: repeat(1, 1fr);
-  /* padding: 30px 0px; */
-  gap: 30px;
-}
+
  
- 
-.textform h4{
-
-  font-size: 1.8rem;
-  font-weight: 700;
-  line-height: 2.2rem;
-  margin: 10px 0px;
-}
-.textform p{
-
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.5rem;
-}
-.video-card-body h5{
-  padding: 15px 0px 5px 0px;
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-#primary-button{
-  padding: 10px 20px;
-   
-  font-size: 1rem;
-
-
-}
- 
-
-
-  
-
-}
-

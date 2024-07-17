@@ -84,12 +84,17 @@ p {
   display: none;
 }
 
-/* Here is the header section style part */
+
+/* //Navbar */
+   
 .navbar {
-  background-color: transparent;
+
+  background-color: transparent !important;
   position: absolute;
-  z-index: 49;
-  padding: 25px 0;
+  width: 100%;
+  z-index: 10;
+   
+  
 }
 .navbar-brand {
   font-weight: 700;
@@ -114,15 +119,16 @@ p {
   box-sizing: border-box;
 }
 .logo img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
+  width: 100%; /* Make the image take the full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Scale the image to fit within the container */
 }
 
 /* Hero Section Here */
 .hero-section {
   min-height: 85vh;
   background-image: url("images/hero-image.webp");
+  /* background-image: url(images/casestudies.webp); */
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -148,6 +154,7 @@ p {
 .hero-content p {
   margin: 20px 0 40px 0;
   font-size: 1.5rem;
+  font-weight: 700;
 }
 
 /* Trusted By Styling Here */
@@ -178,7 +185,99 @@ p {
   border-radius: 15px;
 }
 
-/* Our Achivment Styling Here */
+/* Services Section Styling Here */
+/* BIGNUMBER */
+
+.big-numbers {
+  /* background-color: var(--light-bakground-color); */
+  background-color: rgb(0, 0, 0);
+  padding: var(--section-padding);
+}
+
+.big-numbers h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.card-container {
+  width: 100%;
+  background-color: aqua;
+}
+
+.cards {
+  /* background-color: var(--primary-color); */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 30px;
+  border-radius: 15px;
+
+  gap: 20px;
+}
+
+.cards .clients {
+  text-align: center;
+  border: 1px solid gray;
+  padding: 20px 0px;
+  border-radius: 10px;
+  
+}
+.cards .clients div:hover {
+  transform: scale(1.1);
+  
+}
+.cards .clients p {
+  line-height: 1;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.cards .clients span {
+  font-family: var(--font-family);
+  line-height: 1;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.icon-card {
+ 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+  border-radius: px;
+  gap: 20px;
+  padding: 20px 20px;
+  
+}
+.icon-card .card {
+  background-color: var(--black-color);
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 20px 0px;
+  border-radius: 10px;
+
+ 
+   
+}
+.icon-card .card:hover {
+ 
+scale: 1;
+ 
+   
+}
+ .card p{
+   color: var(--white-color);
+   line-height: 1;
+   font-weight: 700;
+   font-size: 1.2rem;
+ }
+
+
+
 .our-achivment-card {
   background-color: var(--primary-color);
   border-radius: 15px;

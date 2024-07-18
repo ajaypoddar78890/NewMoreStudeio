@@ -196,6 +196,17 @@
     margin-top: 60px;
     gap: 1.5rem;
   }
+  /* OUR TEAM */
+
+  .Team-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .team-card {
+    
+    padding: 20px ;
+  
+    
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -400,14 +411,19 @@
     font-size: 1rem;
   }
 
+  /* //EMpower SEction 
+   */
+
+   .rightside{
+    padding: 0px 20px;
+   }
+
   /* How it Work Section responsive styling here */
   .process-card div:first-child {
     min-width: 40px;
   }
 
   .about-achivment-card {
-     
-     
   }
   .about-achivment-card div {
     text-align: left;
@@ -419,10 +435,13 @@
   .about-achivment-card div span {
     font-size: 0.9rem;
   }
+  .team-card h4 {
+     
+    font-size: 1rem;
+     
+  }
+  .team-card  p {
+    font-size: .8rem;
+  
+  }
 }
-
-
-
-
-
- 

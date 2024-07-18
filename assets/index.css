@@ -84,17 +84,13 @@ p {
   display: none;
 }
 
-
 /* //Navbar */
-   
-.navbar {
 
+.navbar {
   background-color: transparent !important;
   position: absolute;
   width: 100%;
   z-index: 10;
-   
-  
 }
 .navbar-brand {
   font-weight: 700;
@@ -220,11 +216,9 @@ p {
   border: 1px solid gray;
   padding: 20px 0px;
   border-radius: 10px;
-  
 }
 .cards .clients div:hover {
   transform: scale(1.1);
-  
 }
 .cards .clients p {
   line-height: 1;
@@ -243,14 +237,12 @@ p {
 }
 
 .icon-card {
- 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  
+
   border-radius: px;
   gap: 20px;
   padding: 20px 20px;
-  
 }
 .icon-card .card {
   background-color: var(--black-color);
@@ -259,24 +251,16 @@ p {
   border: 1px solid gray;
   padding: 20px 0px;
   border-radius: 10px;
-
- 
-   
 }
 .icon-card .card:hover {
- 
-scale: 1;
- 
-   
+  scale: 1;
 }
- .card p{
-   color: var(--white-color);
-   line-height: 1;
-   font-weight: 700;
-   font-size: 1.2rem;
- }
-
-
+.card p {
+  color: var(--white-color);
+  line-height: 1;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
 
 .our-achivment-card {
   background-color: var(--primary-color);
@@ -930,7 +914,6 @@ html.lenis {
 /* //Empower Section  */
 .empower-section {
   padding: var(--section-padding);
-   
 }
 .empower-section .container {
   padding: var(--section-padding);
@@ -951,34 +934,99 @@ html.lenis {
 .empower-section span {
   color: blue;
 }
-
-.newbutton1{
-  background-color:blue;
-  color: var(--white-color);
-  padding: 15px 25px;
-  gap: 20px;
-}
-.newbutton2{
-  background-color: rgb(0, 0, 0)  ;
-   
-  padding: 15px 25px;
-}
-.Cta a{
+.Cta a {
   text-decoration: none;
   color: white;
   border-radius: 10px;
 }
+
+.newbutton1 {
+  background-color: blue;
+  color: var(--white-color);
+  padding: 15px 25px;
+  gap: 20px;
+}
+.newbutton2 {
+  background-color: rgb(0, 0, 0);
+
+  padding: 15px 25px;
+}
+
 .empower-section img {
   width: 100%;
-  height: 461px;
-   
-   
-  
-  
 }
-.rightside{
+.rightside {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+}
+
+.our-mission {
+  padding: var(--section-padding);
+}
+.our-mission h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+.our-mission span {
+  color: green;
+  font-weight: 600;
+  font-size: 1.4rem;
+  font-family: var(--font-family);
+}
+
+.Our-Team {
+  padding: var(--section-padding);
+}
+.Our-Team h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+.Our-Team span {
+  color: green;
+  font-weight: 600;
+  font-size: 1.4rem;
+  font-family: var(--font-family);
+}
+
+.Team-cards{
+  /* background-color: var(--primary-color); */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 30px;
+  border-radius: 15px;
+
+  gap: 20px;
+}
+
+.card {
+  height: 250px;
+  width: 100%;
+  
+}
+
+.img-container {
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Centers the image vertically */
+  width: 100%;
+  height: 100px;
+}
+
+.img-container img {
+  border-radius: 50%;
+  height: 100%;
+}
+.card h4{
+  padding-top: 10px;
+  font-size: 1.5rem;
+   font-weight: 600;
+}
+.card p{
+  font-size: 1rem;
+   font-weight: 600;
+   color: gray;
 }

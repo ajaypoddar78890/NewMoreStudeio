@@ -996,7 +996,7 @@ html.lenis {
   /* background-color: var(--primary-color); */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-   margin: 30px 0px;
+  margin: 30px 0px;
   border-radius: 15px;
   align-items: center;
   justify-content: center;
@@ -1007,10 +1007,8 @@ html.lenis {
 .team-card {
   display: flex;
   flex-direction: column;
- 
-  padding: 20px ;
 
-  
+  padding: 20px;
 }
 
 .img-container {
@@ -1027,8 +1025,57 @@ html.lenis {
   font-size: 1.5rem;
   font-weight: 500;
 }
-.team-card  p {
+.team-card p {
   font-size: 1rem;
   font-weight: 600;
   color: gray;
 }
+
+/* //social cause */
+
+/* Vision Section styling here */
+.social-cause-section {
+  background-color: var(--black-color);
+  padding: var(--section-padding);
+}
+.social-cause-section span {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1.4rem;
+  font-family: var(--font-family);
+}
+
+.social-cause-section img {
+  width: 100%;
+  border-radius: 15px;
+}
+.social-cause-section h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  color: var(--primary-color);
+}
+.social-cause-section p {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: var(--white-color);
+}
+.social-cause-section .CTA {
+  margin-top: 30px;
+}
+
+
+.social-cause-section .CTA  a {
+  border-radius: 15px;
+  color: var(--black-color);
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  text-decoration: none;
+  background-color: var(--primary-color)
+  
+   
+}
+ 
+ 
+

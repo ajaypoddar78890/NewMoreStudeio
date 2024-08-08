@@ -15,7 +15,7 @@
   }
   .our-achivment-card {
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 60px;
+    margin: 20px 0px;
     gap: 1.5rem;
   }
   .casestudy-card {
@@ -193,7 +193,7 @@
 
   .about-achivment-card {
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 60px;
+    margin-top: 10px;
     gap: 1.5rem;
   }
   /* OUR TEAM */
@@ -202,10 +202,20 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .team-card {
-    
-    padding: 20px ;
-  
-    
+    padding: 20px;
+  }
+  /* //about section  */
+  .about-sections .top h4 {
+    font-size: 2rem;
+  }
+  .about-sections .top p {
+    font-size: 1.3rem;
+  }
+  .bottom {
+    height: 45vh;
+  }
+  .big-number {
+    padding: 5px;
   }
 }
 
@@ -414,15 +424,15 @@
   /* //EMpower SEction 
    */
 
-   .rightside{
+  .rightside {
     padding: 0px 20px;
-   }
+  }
 
   /* How it Work Section responsive styling here */
   .process-card div:first-child {
     min-width: 40px;
   }
- 
+
   .about-achivment-card div {
     text-align: left;
   }
@@ -434,12 +444,9 @@
     font-size: 0.9rem;
   }
   .team-card h4 {
-     
     font-size: 1rem;
-     
   }
-  .team-card  p {
-    font-size: .8rem;
-  
+  .team-card p {
+    font-size: 0.8rem;
   }
 }

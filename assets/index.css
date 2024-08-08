@@ -821,7 +821,8 @@ html.lenis {
 /* //ABOUT PAGE CSS */
 
 .about-sections {
-  background-color: var(--white-color);
+  background-color: var(--black-color);
+
   /* padding: var(--section-padding); */
   color: var(--white-color);
 }
@@ -831,15 +832,21 @@ html.lenis {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  height: 70vh; /* Ensure the container takes the full viewport height */
+  color: var(--white-color);
 }
 .about-sections .top {
-  padding: 10px 0px;
+  margin-top: 60px;
   width: 100%;
-  color: black;
 }
 .about-sections .top h4 {
-  color: blue;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.about-sections .top p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 20px 0px;
 }
 
 .bottom {
@@ -853,16 +860,16 @@ html.lenis {
 
 /* //BIG NUMBER */
 
-.big-number {
-  /* background-color: var(--black-color); */
-  margin-bottom: 20px;
+.big-number-section {
+  background-color: var(--black-color);
+  padding: 20px 0px;
 }
 
 /* Our Achivment Styling Here */
 .about-achivment-card {
   background-color: var(--primary-color);
   border-radius: 15px;
-  margin-top: 20px;
+
   padding: 30px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -886,29 +893,43 @@ html.lenis {
 }
 
 /* Vision Section styling here */
-.vision-section {
+.Vision-Section {
   background-color: var(--light-bakground-color);
   padding: var(--section-padding);
 }
-.vision-section span {
-  color: green;
-  font-weight: 600;
-  font-size: 1.4rem;
-  font-family: var(--font-family);
-}
 
-.vision-section img {
+.Vision-Section img {
   width: 100%;
   border-radius: 15px;
 }
-.vision-section h4 {
+.Vision-Section h4 {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0.8rem;
+  color: var(--black-color);
 }
-.vision-section p {
+.Vision-Section p {
   font-size: 1.1rem;
   line-height: 1.5rem;
+  color: var(--black-color);
+}
+.Vision-Section .CTA {
+  margin: 30px 0px;
+}
+
+.Vision-Section .CTA a {
+  border-radius: 10px;
+  color: var(--black-color);
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  font-weight: 500;
+}
+.Vision-Section .CTA a :hover {
+  background-color: var(--black-color);
+  color: var(--white-color);
 }
 
 /* //Empower Section  */
@@ -917,13 +938,7 @@ html.lenis {
 }
 .empower-section .container {
   padding: var(--section-padding);
-  background: hsla(152, 100%, 50%, 1); /* Fallback for old browsers */
-  background: linear-gradient(
-    30deg,
-    hsla(152, 100%, 50%, 1) 0%,
-    hsla(186, 100%, 69%, 1) 100%
-  );
-  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#00ff87", endColorstr="#60efff", GradientType=1); /* For IE */
+  /* background-color: var(--light-bakground-color); */
 }
 
 .empower-section h4 {
@@ -932,22 +947,23 @@ html.lenis {
   margin-bottom: 0.8rem;
 }
 .empower-section span {
-  color: blue;
+  color: var(--primary-color);
 }
 .Cta a {
   text-decoration: none;
-  color: white;
+
   border-radius: 10px;
 }
 
 .newbutton1 {
-  background-color: blue;
-  color: var(--white-color);
+  background-color: var(--primary-color);
+  color: black;
   padding: 15px 25px;
   gap: 20px;
 }
 .newbutton2 {
-  background-color: rgb(0, 0, 0);
+  background-color: var(--black-color);
+  color: var(--white-color);
 
   padding: 15px 25px;
 }
@@ -977,31 +993,23 @@ html.lenis {
   font-family: var(--font-family);
 }
 
+/* //here is the our team */
+
 .Our-Team {
+  background-color: var(--black-color);
   padding: var(--section-padding);
-}
-.Our-Team h4 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 0.8rem;
-}
-.Our-Team span {
-  color: green;
-  font-weight: 600;
-  font-size: 1.4rem;
-  font-family: var(--font-family);
 }
 
 .Team-cards {
   /* background-color: var(--primary-color); */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 30px 0px;
-  border-radius: 15px;
+  margin: 50px 0px;
+
   align-items: center;
   justify-content: center;
   column-gap: 20px;
-  gap: 20px;
+  gap: 30px;
 }
 
 .team-card {
@@ -1009,6 +1017,8 @@ html.lenis {
   flex-direction: column;
 
   padding: 20px;
+  border-radius: 15px;
+  border: 1px solid gray;
 }
 
 .img-container {
@@ -1024,16 +1034,16 @@ html.lenis {
   padding-top: 10px;
   font-size: 1.5rem;
   font-weight: 500;
+  color: var(--white-color);
 }
 .team-card p {
   font-size: 1rem;
   font-weight: 600;
-  color: gray;
+  color: var(--white-color);
 }
 
 /* //social cause */
 
-/* Vision Section styling here */
 .social-cause-section {
   background-color: var(--black-color);
   padding: var(--section-padding);
@@ -1064,18 +1074,12 @@ html.lenis {
   margin-top: 30px;
 }
 
-
-.social-cause-section .CTA  a {
-  border-radius: 15px;
+.social-cause-section .CTA a {
+  border-radius: 10px;
   color: var(--black-color);
-  padding: 10px 15px;
+  padding: 10px 20px;
   text-decoration: none;
   font-size: 1.1rem;
   text-decoration: none;
-  background-color: var(--primary-color)
-  
-   
+  background-color: var(--primary-color);
 }
- 
- 
-
